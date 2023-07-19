@@ -1,0 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+/* Common shared styles */
+body{
+    font-family: 'Work Sans', sans-serif;
+}
