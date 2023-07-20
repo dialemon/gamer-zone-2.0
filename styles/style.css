@@ -261,6 +261,95 @@ padding: 15px;
         bottom: 160px;
         margin-left: 30px;
     }
+    /* category section */
+    .category{
+        max-width: 1200px;
+        margin : 0 auto;
+    }
+    .category-img{
+        display: flex;
+        flex-wrap: wrap;
+       justify-content: center;
+        gap: 20px;
+    }
+    .category-img-1{
+        display: flex;
+        align-items: center;
+        padding: 10px;
+    }
+    .category-img-1:hover{
+        border-radius: 50px;
+        border: 1px solid #FF42A5;
+        color: #F948B2; 
+    }
+    .category-img-1 img{
+        width: 40px;
+        height: 40px;
+    }
+    .category-img p{
+        font-size: 20px;
+        font-weight: 500;
+        margin-left: 5px;
+    }
+  /* footer section */
+  footer{
+    margin-top: 80px;
+    background: #0B0223;
+    width: auto;
+    height: 700;
+}
+.footer-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 60px;
+}
+
+.footer-text{
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: 10px;
+    color: #fff;
+
+}
+
+.footer-logo-text{
+    color: #FF42A5;
+}
+.footer-menu{
+ color: #FFF;
+ display: flex;
+justify-content: center;
+gap: 30px;
+padding: 20px;
+margin-top: 10px;
+font-size: 18px;
+font-weight: 600;
+}
+.footer-icon{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.footer-extra{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.60);
+    font-weight: 500;
+    margin-top: 30px;
+}
+.copyright{
+color: rgba(255, 255, 255, 0.60);
+text-align: center;
+margin-top: 20px;
+padding-bottom: 30px;
+font-size: 10px;
+font-weight: 500;
+}
     /* media screen for smartphones with 425px width */
 @media screen and (max-width:425px){
     .nav-logo{
@@ -338,5 +427,18 @@ padding: 15px;
         width: 200px;
         height: 200px;
     }
-
+    .category-img{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin: 0 auto;
+    }
+    
+    .category-img-1 img{
+        width: 20px;
+        height: 20px;
+        align-items: center;
+    }
+    .category-img p{
+        font-size: 10px;
+    }
 }
